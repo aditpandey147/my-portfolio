@@ -47,6 +47,17 @@
     border-radius: 20px;
     width: 95%;
     height: auto;
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+  }
+  @-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+  @keyframes action {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
   }
   .hero-bg{
     background-color:#1a0538;
@@ -148,9 +159,10 @@
   text-decoration: none;
   border: 1px solid blue;
 }
-.about-pera{
-  height: 200px;
-  overflow-y: scroll;
+.about-pera {
+  /* height: 200px; */
+  /* overflow-y: scroll; */
+  font-size: 14px;
 }
 .about-link-a i:hover{
   background-color: white;
@@ -192,12 +204,14 @@ h1 {
   10.2558%, 17.0930% { content: "developer"; }
 
   30.7674%, 51.2791% { content: ""; }
-  31.9070%, 50.1395% { content: "w"; }
-  33.0465%, 49.0000% { content: "wr"; }
-  34.1860%, 47.8605% { content: "wri"; }
-  35.3256%, 46.7209% { content: "writ"; }
-  36.4651%, 45.5814% { content: "write"; }
-  37.6047%, 44.4419% { content: "writer"; }
+  31.9070%, 50.1395% { content: "d"; }
+  33.0465%, 49.0000% { content: "de"; }
+  34.1860%, 47.8605% { content: "des"; }
+  35.3256%, 46.7209% { content: "desi"; }
+  36.4651%, 45.5814% { content: "desig"; }
+  37.6047%, 44.4419% { content: "design"; }
+  38.6047%, 43.4419% { content: "designe"; }
+  39.6047%, 42.4419% { content: "designer"; }
 
   54.6977%, 75.2093% { content: ""; }
   55.8372%, 74.0698% { content: "r"; }
@@ -356,3 +370,12 @@ h1 {
 .carousel-inner .carousel-item-start { 
   transform: translateX(0);
 } */
+ 
+
+.contact_img{
+  width: 150px;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  color: rgb(32 213 219);
+}

@@ -5,10 +5,28 @@
 }
 
 @media (max-width: 992px) {
-  
+  .hero--img {
+    border-radius: 20px;
+    width: 57%;
+    height: auto;
+  }
+  .contact-num p {
+    font-size: 14px;
 }
+.contact_img {
+  width: 125px;
+}
+}
+  
+
 
 @media (max-width: 767px) {
+  .contact_img {
+    width: 115px;
+}
+.contact-num p{
+  font-size: 12px;
+}
 
 }
 
@@ -59,6 +77,11 @@ p.text-white {
   padding-top: 11px;
   text-decoration: none;
   border: 1px solid blue;
+}
+.shadow__btn {
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+  font-size: 11px;
 }
 
 }
