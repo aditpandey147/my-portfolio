@@ -53,15 +53,15 @@
   @-webkit-keyframes action {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
-}
+ }
 
-  @keyframes action {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-20px); }
-  }
-  .hero-bg{
-    background-color:#1a0538;
-  }
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.hero-bg{
+  background-color:#1a0538;
+}
 
   /* From Uiverse.io by mrhyddenn */ 
 .shadow__btn {
