@@ -83,5 +83,12 @@ p.text-white {
   box-shadow: 0 0 25px rgb(0, 140, 255);
   font-size: 11px;
 }
+.col-sm-12.col-md-12.col-lg-6.d-flex.flex-column.justify-content-center.align-items-start {
+  margin-bottom: 70px;
+}
+.hero-bg {
+  height: 80vh;
+  position: relative;
+}
 
 }
