@@ -1,0 +1,94 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {
+    
+}
+
+@media (max-width: 992px) {
+  .hero--img {
+    border-radius: 20px;
+    width: 57%;
+    height: auto;
+  }
+  .contact-num p {
+    font-size: 14px;
+}
+.contact_img {
+  width: 125px;
+}
+}
+  
+
+
+@media (max-width: 767px) {
+  .contact_img {
+    width: 115px;
+}
+.contact-num p{
+  font-size: 12px;
+}
+
+}
+
+@media (max-width: 576px) {
+  .col-sm-12.col-md-12.col-lg-6.d-flex.flex-column.justify-content-center.align-items-start {
+    padding-left: 38px;
+}
+p.text-white {
+  padding-right: 27px;
+}
+.box-img{
+  height: 21rem;
+}
+.col-sm-12.col-md-6.col-lg-4.d-flex.justify-content-center.align-items-center{
+  margin-bottom: 19px;
+}
+}
+
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+}
+
+@media (max-width: 420px) {
+.service-box {
+  padding: 1rem !important;
+  margin-bottom: 19px;
+}
+}
+
+@media (max-width: 376px) {
+  .box-img{
+    height: 18rem;
+  }
+.about-link-a i {
+  margin-left: -1px;
+  background-color: blue;
+  color: #FFFFFF;
+  border-radius: 50%;
+  text-decoration: none;
+  width: 41px;
+  height: 41px;
+  padding-left: 14px;
+  padding-top: 11px;
+  text-decoration: none;
+  border: 1px solid blue;
+}
+.shadow__btn {
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+  font-size: 11px;
+}
+.col-sm-12.col-md-12.col-lg-6.d-flex.flex-column.justify-content-center.align-items-start {
+  margin-bottom: 70px;
+}
+.hero-bg {
+  height: 80vh;
+  position: relative;
+}
+
+}
