@@ -384,3 +384,75 @@ h1 {
 .navbar-brand:focus, .navbar-brand:hover {
   color: rgb(32 213 219);
 }
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(252, 252, 252);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(16, 37, 224);  /* creates padding around scroll thumb */
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-radius: 50%;
+  transition: ease-in-out 0.3s;
+}
+
+#btn-back-to-top:hover{
+  background-color:#220747;
+  color: white;
+  border: none;
+}
+.portfolio-section .container .header{
+  position: relative;
+}
+.portfolio-section .container .header::before{
+  content: " ";
+  width: 45px;
+  height: 4px;
+  position: absolute;
+  background-color: red;
+  bottom: -8px;
+  left: 51%;
+}
+.portfolio-section .container .header::after{
+  position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: -8px;
+    left: 56%;
+    background-color: red;
+
+}
+.service-section .container .header {
+  position: relative;
+}
+.service-section .container .header::before{
+  content: " ";
+  position: absolute;
+  width: 66px;
+  height: 4px;
+  bottom: -8px;
+  left: 52%;
+  background-color: #220747;
+}
+.service-section .container .header::after{
+  content: " ";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  bottom: -8px;
+  left: 59%;
+  background-color: #220747;
+}
