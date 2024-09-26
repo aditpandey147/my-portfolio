@@ -313,10 +313,10 @@ h1 {
               transform: rotate(360deg);
     }
     
-    .custom_nav-container .navbar-toggler[aria-expanded="true"] span {
+    /* .custom_nav-container .navbar-toggler[aria-expanded="true"] span {
       -webkit-transform: rotate(45deg);
               transform: rotate(45deg);
-    }
+    } */
     
     .custom_nav-container .navbar-toggler[aria-expanded="true"] span::before, .custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
       -webkit-transform: rotate(90deg);

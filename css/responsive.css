@@ -43,6 +43,10 @@ p.text-white {
 .col-sm-12.col-md-6.col-lg-4.d-flex.justify-content-center.align-items-center{
   margin-bottom: 19px;
 }
+.hero-bg {
+  height: 80vh;
+  position: relative;
+}
 }
 
 
@@ -52,12 +56,20 @@ p.text-white {
     color: white;
     font-weight: 600;
 }
+.hero-bg {
+  height: 80vh;
+  position: relative;
+}
 }
 
 @media (max-width: 420px) {
 .service-box {
   padding: 1rem !important;
   margin-bottom: 19px;
+}
+.hero-bg {
+  height: 80vh;
+  position: relative;
 }
 }
 
