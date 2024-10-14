@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+  /* body{
+    background-image: url(/img/pexels-lazybird-1260727.jpg);
+    background-size: cover;
+  } */
   
   .layout-padding{
     margin-top: 90px;
@@ -287,6 +291,15 @@ h1 {
   /* transition: ease-in-out 6s; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.box-img-1{
+  width: 30rem;
+  height: 400px;
+  background-position: top;
+  background-color: #000;
+  /* transition: ease-in-out 6s; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-size: cover;
+}
 .box-img.box-1{
   background: url(../img/csdcbkp.png);
   background-size: cover;
@@ -296,6 +309,11 @@ h1 {
   background: url(../img/bloggingwizards.com.png);
   background-size: cover;
   transition: ease-in-out 6s;
+}
+.box-img-1.box-3{
+  background: url(../img/Macbook-Air-127.0.0.1\ \(1\)\ \(1\).png);
+  background-size: cover;
+  background-position: bottom;
 }
 .box-img:hover{
   background-position: bottom;
