@@ -315,6 +315,16 @@ h1 {
   background-size: cover;
   background-position: bottom;
 }
+.box-img-1.box-4{
+  background: url(../img/mack.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.box-img.box-5{
+  background: url(../img/softwere.png);
+  background-size: cover;
+  transition: ease-in-out 6s;
+}
 .box-img:hover{
   background-position: bottom;
 }
