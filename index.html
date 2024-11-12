@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My-Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -132,79 +133,82 @@
         <h2 class="fw-bold header text-white text-center my-3">My Skill</h2>
       </div>
     </div>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="container my-5 d-flex justify-content-center align-items-center">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail-removebg-preview.png" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <a href="#" class="btn btn-primary">HTML</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/css (1).png" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <a href="#" class="btn btn-primary">CSS</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/js.png" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <a href="#" class="btn btn-primary">JS</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div class="swiper mySwiper mb-5">
+      <div class="swiper-wrapper my-3">
+        <div class="swiper-slide mb-5">
+          <div class="card" style="width: 18rem;">
+            <img src="img/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail-removebg-preview.png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#" class="btn btn-primary">HTML</a>
+            </div> -->
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="container my-5 d-flex justify-content-center align-items-center">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/bootstrap.png" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <a href="#" class="btn btn-primary">BOOTSTRAP</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/figma.png" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <a href="#" class="btn btn-primary">FIGMA</a>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/react.png" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <a href="#" class="btn btn-primary">REACT</a>
-                  </div>
-                </div>
-              </div> -->
-            </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/css (1).png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#" class="btn btn-primary">CSS</a>
+            </div> -->
           </div>
-        <!-- <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div> -->
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/js.png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center w-25">
+              <a href="#" >JS</a>
+            </div> -->
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/bootstrap.png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#" class="btn btn-primary">BOOTSTRAP</a>
+            </div> -->
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/figma.png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#" class="btn btn-primary">FIGMA</a>
+            </div> -->
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail-removebg-preview.png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#" class="btn btn-primary">HTML</a>
+            </div> -->
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/css (1).png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#">CSS</a>
+            </div> -->
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/js.png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#" class="btn btn-primary">JS</a>
+            </div> -->
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card" style="width: 18rem;">
+            <img src="img/bootstrap.png" class="card-img-top" alt="...">
+            <!-- <div class="btn btn-primary text-center">
+              <a href="#" class="btn btn-primary">BOOTSTRAP</a>
+            </div> -->
+          </div>
+        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="swiper-pagination mt-5"></div>
     </div>
   </section>
   <!-- announse-section-end -->
@@ -501,11 +505,24 @@
     </div>
    </section>
   <!-- footer-section-end -->
-
   <button type="button" class="btn btn-info btn-floating btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
   </button>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      autoplay:{
+        delay:2500,
+
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
     var spinner = function () {
       setTimeout(function () {
           if ($('#spinner').length > 0) {
