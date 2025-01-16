@@ -98,9 +98,15 @@ p.text-white {
 .col-sm-12.col-md-12.col-lg-6.d-flex.flex-column.justify-content-center.align-items-start {
   margin-bottom: 70px;
 }
-.hero-bg {
-  height: 80vh;
-  position: relative;
+
+  .hero-bg {
+      height: 91vh;
+      position: relative;
+      padding-top: 66px;
+  }
+
+.card-img-top{
+  width: 500px;
 }
 
 }

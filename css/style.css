@@ -18,8 +18,11 @@
     color: white;
     font-weight: 600;
   }
-  .bg-header{
-    background-color:#220747;
+  .bg-header {
+    background-color: #220747;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
   }
   .navbar-nav .nav-item .nav-link{
     color: rgb(253, 253, 253);
@@ -46,6 +49,7 @@
   .hero-bg{
     height: 100vh;
     position: relative;
+    padding-top: 30px;
 
   }
   .hero--img{
@@ -339,6 +343,7 @@ h1 {
   background-size: cover;
   transition: ease-in-out 4s;
 }
+
 .box-img-1.box-6{
   background: url(../img/Picture1\ \(1\).png);
   background-size: cover;
