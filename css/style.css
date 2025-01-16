@@ -300,6 +300,15 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-size: cover;
 }
+.box-img-2{
+  width: 57rem;
+  height: 400px;
+  background-position: top;
+  background-color: #000;
+  /* transition: ease-in-out 6s; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-size: cover;
+}
 .box-img.box-1{
   background: url(../img/csdcbkp.png);
   background-size: cover;
@@ -323,7 +332,22 @@ h1 {
 .box-img.box-5{
   background: url(../img/softwere.png);
   background-size: cover;
-  transition: ease-in-out 6s;
+  transition: ease-in-out 10s;
+}
+.box-img.box-7{
+  background: url(../img/digital-marketing.png);
+  background-size: cover;
+  transition: ease-in-out 4s;
+}
+.box-img-1.box-6{
+  background: url(../img/Picture1\ \(1\).png);
+  background-size: cover;
+  background-position: bottom;
+}
+.box-img-2.box-6{
+  background: url(../img/Picture2.png);
+  background-size: cover;
+  background-position: bottom;
 }
 .box-img:hover{
   background-position: bottom;
@@ -551,4 +575,10 @@ background-size: cover;
 
 .card{
   background-color: #eeecf1;
+}
+
+.nav{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
